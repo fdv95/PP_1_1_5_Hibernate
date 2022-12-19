@@ -16,7 +16,7 @@ public class UserDaoJDBCImpl implements UserDao {
     private static final String DELETE = "DELETE FROM user WHERE id=?"; // Удаление значений по id
     private static final String DELETE_ALL = "DELETE FROM user"; // Удаление всех значений из таблицы
 
-    PreparedStatement preparedStatement = null;
+    private PreparedStatement preparedStatement = null;
 
     public UserDaoJDBCImpl() {
 
