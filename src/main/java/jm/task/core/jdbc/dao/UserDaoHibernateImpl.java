@@ -11,10 +11,6 @@ public class UserDaoHibernateImpl implements UserDao {
             + " name varchar(45) not null, lastName varchar(45) not null, age tinyint not null,"
             + " constraint user_pk primary key (id))"; // Создание таблицы
 
-    public UserDaoHibernateImpl() {
-
-    }
-
 
     @Override
     public void createUsersTable() {
